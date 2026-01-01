@@ -6,10 +6,10 @@ from pybricks.robotics import DriveBase
 
 # Set up all devices.
 prime_hub = PrimeHub()
-DMotor_1 = Motor(Port.F, Direction.CLOCKWISE)
-DMotor2 = Motor(Port.D, Direction.COUNTERCLOCKWISE)
+DMotor_1 = Motor(Port.E, Direction.CLOCKWISE)
+DMotor2 = Motor(Port.A, Direction.COUNTERCLOCKWISE)
 drive_base = DriveBase(DMotor2, DMotor_1, 56, 115)
-MotorAttach1 = Motor(Port.B, Direction.CLOCKWISE)
+MotorAttach1 = Motor(Port.D, Direction.CLOCKWISE)
 MotorAttach2 = Motor(Port.C, Direction.COUNTERCLOCKWISE)
 
 
